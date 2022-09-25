@@ -11,7 +11,6 @@
 #修改后
 TempStr = eval(input("请输入带有符号的温度值:"))
 
-# print(TempStr)
 C = int((TempStr - 32) / 1.8)
 print("转换后的摄氏温度是{:d}C".format(C))
 
