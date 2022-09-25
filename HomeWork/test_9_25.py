@@ -1,3 +1,4 @@
+#汇率转换
 Money = input("请输入带有符号的转换数值:")
 if Money[-3:] in ['USD', 'usd']:
     RMB = (eval(Money[0:-3]) * 6)
