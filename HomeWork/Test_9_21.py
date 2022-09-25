@@ -1,5 +1,5 @@
 import jieba
-#加载系统词典
+# 加载系统词典
 jieba.set_dictionary('./data/dict.txt.big')
 
 print('自定义词典内容:')
