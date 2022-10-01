@@ -19,8 +19,9 @@
 
 
 import turtle
+
 color = ['black', 'grey', 'pink', 'gold']
-turtle.setup(650,320,200,200)
+turtle.setup(650, 320, 200, 200)
 turtle.penup()
 turtle.fd(-250)
 turtle.pendown()
@@ -29,7 +30,7 @@ turtle.seth(-40)
 for i in range(4):
     turtle.pencolor(color[i])
     turtle.circle(40, 80)
-    turtle.pencolor(color[i+1])
+    turtle.pencolor(color[i])
     turtle.circle(-40, 80)
 turtle.pencolor('purple')
 turtle.circle(40, 40)
