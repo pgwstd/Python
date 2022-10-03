@@ -35,5 +35,5 @@ turtle.pendown()
 turtle.fd(80)
 turtle.penup()
 turtle.fd(10)
-
+turtle.hideturtle()
 turtle.done()
