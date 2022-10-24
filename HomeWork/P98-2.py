@@ -68,4 +68,5 @@ if __name__ == '__main__':
     name_list = ["doc1", 'doc2', 'doc3', 'doc4', 'doc5', 'doc6', 'doc7', 'doc8', 'doc9', 'doc10', 'doc11', 'doc12']
     plt.bar(range(len(num_list)), num_list, color=['r','g','b'],tick_label=name_list)
     plt.ylabel("Score(Q,doc)")
+
     plt.show()
