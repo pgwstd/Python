@@ -9,7 +9,6 @@ def koch(size, n):
             turtle.left(angle)
             koch(size / 3, n - 1)
 
-
 def main():
     turtle.setup(800, 800)
     turtle.speed(0)  # 画的速度
@@ -27,6 +26,5 @@ def main():
     koch(300, level)
     turtle.hideturtle()  # 不要出现箭头
     turtle.done()  # 不要关闭窗口
-
 
 main()
