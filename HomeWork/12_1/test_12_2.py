@@ -1,4 +1,5 @@
 import jieba
+
 excludes = {"却说", "西天", "取经", "不可", "妖怪"}
 txt = open("西游记.txt", "r", encoding='utf-8').read()
 words = jieba.lcut(txt)
