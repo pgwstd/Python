@@ -1,4 +1,4 @@
-#一周工作4天的
+# 一周工作4天的
 DayUp = 1.0
 DayUp2 = 1.0
 DayUp3 = 1.0
@@ -20,7 +20,7 @@ N8 = 0.008
 N9 = 0.009
 N10 = 0.01
 for i in range(365):
-    #以周日为一周的第一天
+    # 以周日为一周的第一天
     if i % 7 not in [0, 5, 6]:
         # dayup = dayup * (1 + 0.001)
         DayUp *= (1 + N)
@@ -33,13 +33,13 @@ for i in range(365):
         DayUp8 *= (1 + N8)
         DayUp9 *= (1 + N9)
         DayUp10 *= (1 + N10)
-print("1.一年中一周工作连续4天，水平可以上升:{:.2f}" .format(DayUp))   #保留两位小数
-print("2.一年中一周工作连续4天，水平可以上升:{:.2f}" .format(DayUp2))
-print("3.一年中一周工作连续4天，水平可以上升:{:.2f}" .format(DayUp3))
-print("4.一年中一周工作连续4天，水平可以上升:{:.2f}" .format(DayUp4))
-print("5.一年中一周工作连续4天，水平可以上升:{:.2f}" .format(DayUp5))
-print("6.一年中一周工作连续4天，水平可以上升:{:.2f}" .format(DayUp6))
-print("7.一年中一周工作连续4天，水平可以上升:{:.2f}" .format(DayUp7))
-print("8.一年中一周工作连续4天，水平可以上升:{:.2f}" .format(DayUp8))
-print("9.一年中一周工作连续4天，水平可以上升:{:.2f}" .format(DayUp9))
-print("10.一年中一周工作连续4天，水平可以上升:{:.2f}" .format(DayUp10))
+print("1.一年中一周工作连续4天，水平可以上升:{:.2f}".format(DayUp))  # 保留两位小数
+print("2.一年中一周工作连续4天，水平可以上升:{:.2f}".format(DayUp2))
+print("3.一年中一周工作连续4天，水平可以上升:{:.2f}".format(DayUp3))
+print("4.一年中一周工作连续4天，水平可以上升:{:.2f}".format(DayUp4))
+print("5.一年中一周工作连续4天，水平可以上升:{:.2f}".format(DayUp5))
+print("6.一年中一周工作连续4天，水平可以上升:{:.2f}".format(DayUp6))
+print("7.一年中一周工作连续4天，水平可以上升:{:.2f}".format(DayUp7))
+print("8.一年中一周工作连续4天，水平可以上升:{:.2f}".format(DayUp8))
+print("9.一年中一周工作连续4天，水平可以上升:{:.2f}".format(DayUp9))
+print("10.一年中一周工作连续4天，水平可以上升:{:.2f}".format(DayUp10))
