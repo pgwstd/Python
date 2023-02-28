@@ -1,5 +1,6 @@
-#画一个没有四个角的正方形
+# 画一个没有四个角的正方形
 import turtle
+
 turtle.setup(650, 450, 200, 200)
 turtle.penup()
 turtle.fd(-250)

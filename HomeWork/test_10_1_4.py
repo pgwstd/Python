@@ -1,5 +1,6 @@
 import turtle
-#方式一：
+
+# 方式一：
 # turtle.setup(650, 600, 200, 200)
 # turtle.penup()
 # turtle.fd(-200)
@@ -18,7 +19,7 @@ import turtle
 #     turtle.left(60)
 # turtle.done()
 
-#方式二：
+# 方式二：
 turtle.setup(650, 600, 200, 200)
 turtle.penup()
 turtle.pensize(2)
