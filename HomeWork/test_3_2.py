@@ -31,18 +31,21 @@
 #     print("输入格式错误")
 
 
-import turtle
-turtle.setup(650, 350, 200, 200) # 设置窗口大小和位置
-turtle.penup()
-turtle.fd(-250) # 向前移动250像素
-turtle.pendown()
-turtle.pensize(25) # 设置画笔宽度
-turtle.pencolor("purple") # 设置画笔颜色
-turtle.seth(-40) # 设置画笔方向
-for i in range(4):
-    turtle.circle(40, 80)
-    turtle.circle(-40, 80)
-turtle.circle(40, 80/2)
-turtle.fd(40)
-turtle.circle(16, 180)
-turtle.fd(40 * 2/3)
+# import turtle
+#
+# turtle.setup(650, 350, 200, 200)  # 设置窗口大小和位置
+# turtle.penup()
+# turtle.fd(-250)  # 向前移动250像素
+# turtle.pendown()
+# turtle.pensize(25)  # 设置画笔宽度
+# turtle.pencolor("purple")  # 设置画笔颜色
+# turtle.seth(-40)  # 设置画笔方向
+# for i in range(4):
+#     turtle.circle(40, 80)
+#     turtle.circle(-40, 80)
+# turtle.circle(40, 80 / 2)
+# turtle.fd(40)
+# turtle.circle(16, 180)
+# turtle.fd(40 * 2 / 3)
+
+
